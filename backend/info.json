@@ -1,0 +1,36 @@
+{
+    "collMod": "info",
+    "validator": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["company_name","name","contact_no","email","designation"],
+        "properties": {
+          "company_name":{
+            "bsonType": "string",
+            "description": "name of company"
+          },
+          "name": {
+            "bsonType": "string",
+            "description": "name of user"
+          },
+          "contact_no": {
+            "bsonType": "string",
+            "description": "Una representación Hash de la contraseña"
+          },
+          "email": {
+            "bsonType": "string",
+            "description": "full-address of user"
+          },
+          "birth_date": {
+            "bsonType": "string",
+            "description": "birth_date of user"
+          },
+          "designation": {
+            "bsonType": "string",
+            "description": "designation of user"
+          }
+        }
+      }
+    },
+    "validationLevel": "moderate"
+}

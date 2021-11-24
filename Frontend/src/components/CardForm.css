@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+html{
+    background-image: linear-gradient(90deg, rgb(106, 33, 223), rgb(209, 51, 230));
+}
+.cardform-box {
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(106, 33, 223), rgb(209, 51, 230));
+}
+
+.two-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardContent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+   background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.767);
+    border-radius: .7em;
+    padding: 1.5rem 3rem 3rem;
+    /* box-shadow: 20px 20px 20.2px rgba(31, 30, 30, 0.671); */
+
+}
+
+.cardFld {
+  width: 17em;
+  height: 4.4rem;
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+}
+::-webkit-calendar-picker-indicator{
+  color: rgba(255, 255, 255, 0.897);
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.cardFld::placeholder {
+  color: rgba(255, 255, 255, 0.568);
+}
+.codeinp{
+  padding-right: 15px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+.code p{
+  padding-bottom: 20px;
+}
+.cardFld:focus{
+  outline: none;
+  transition: ease 1s;
+  border-bottom-color: black;
+} 
+
+#say-hello {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black
+}
+.companyName,
+.name,
+.contact-no,
+.id,
+.code,
+.dob,
+.doj,
+.designation {
+  padding-top: 0.2em;
+  padding-bottom: 0.8em;
+}
+
+.cardform-label{
+  color: white;
+}
+
+.cardFld{
+  border: none;
+  background-color: transparent;
+  font-size: large;
+}
+
+.cardform-button {
+  border: none;
+  font-weight: bold;
+  width: 22rem;
+  background-image: linear-gradient(90deg, rgb(209, 51, 230), rgb(106, 33, 223), rgb(9, 204, 204));
+  border-radius: 2rem;
+  height: 2.5rem;
+  color: whitesmoke;
+}
+.card-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.cardform-button:hover {
+  transition: ease-in 0.5s;
+  border: 4px solid blueviolet;
+}
+
+
+@media only screen and (max-width: 466px) {
+  .cardFld {
+    width: 15em;
+    height: 3rem;
+  }
+  .button {
+    width: 16rem;
+  }
+.content {
+  padding: 2rem 2rem 2rem;
+ }
+ html{
+  overflow-x:hidden;
+  overflow-y:auto;
+ }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

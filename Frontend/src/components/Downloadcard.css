@@ -1,0 +1,43 @@
+.downContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgb(106, 33, 223), rgb(209, 51, 230));
+}
+/* ------------------------------------.downBtn-------------------------- */
+.downBtn {
+    margin-top: 10%;
+    margin-left: 25%;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 18px;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    cursor: pointer;
+    transition: all .4s;
+   }
+   
+   
+.downBtn span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+.downBtn:hover span {
+    background: none;
+   }
+   
+.downBtn:active {
+    transform: scale(1.2);
+   }

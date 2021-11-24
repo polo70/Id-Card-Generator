@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+html{
+    background-image: linear-gradient(90deg, rgb(106, 33, 223), rgb(209, 51, 230));
+}
+.box {
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    text-align: center; 
+    background-image: linear-gradient(90deg, rgb(106, 33, 223), rgb(209, 51, 230));
+}
+
+.content {
+    margin-top: 20px;
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: .7em;
+    padding: 2rem 2rem 2rem;
+    box-shadow: 20px 20px 20.2px rgba(31, 30, 30, 0.671);
+
+}
+
+.fld {
+  width: 20em;
+  height: 3rem;
+}
+
+.fld::placeholder {
+  color: rgba(128, 128, 128, 0.568);
+}
+
+.fld:focus{
+  outline: none;
+  transition: ease 1s;
+  border-bottom-color: black;
+} 
+
+#say-hello {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black
+}
+
+.name,
+.password,
+.cpassword,
+.email {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+label {
+    text-align: center;
+  font-size: small;
+  color: gray;
+}
+
+.fld{
+  border: none;
+  background-color: whitesmoke;
+  font-size: large;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.616);
+}
+
+.button {
+  border: none;
+  font-weight: bold;
+  width: 22rem;
+  background-image: linear-gradient(90deg, rgb(209, 51, 230), rgb(106, 33, 223), rgb(9, 204, 204));
+  border-radius: 2rem;
+  height: 2.5rem;
+  color: whitesmoke;
+}
+
+.button:hover {
+  transition: ease-in 0.5s;
+  border: 4px solid blueviolet;
+}
+.redirect{
+  padding-top: 10px;
+  text-align: center;
+}
